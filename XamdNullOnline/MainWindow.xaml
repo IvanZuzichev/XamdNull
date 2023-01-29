@@ -1,0 +1,22 @@
+﻿<Window x:Class="XamdNullOnline.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XamdNullOnline"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="B2" Content="" Margin="308,108,417,276" Click="B2_Click" IsEnabled="False"/>
+        <Button x:Name="B3" Content="" Margin="383,108,334,275" RenderTransformOrigin="-0.016,0.609" Click="B3_Click" IsEnabled="False"/>
+        <Button x:Name="B4" Content="" Margin="236,158,490,230" Click="B4_Click" IsEnabled="False"/>
+        <Button x:Name="B5" Content="" Margin="310,158,417,230" Click="B5_Click" IsEnabled="False"/>
+        <Button x:Name="B6" Content="" Margin="383,158,334,230" Click="B6_Click" IsEnabled="False"/>
+        <Button x:Name="B7" Content="" Margin="236,204,490,178" Click="B7_Click" IsEnabled="False"/>
+        <Button x:Name="B8" Content="" Margin="310,204,417,178" Click="B8_Click" IsEnabled="False"/>
+        <Button x:Name="B9" Content="" Margin="383,204,334,178" Click="B9_Click" IsEnabled="False"/>
+        <Button x:Name="B1" Content="" Margin="236,108,490,275" Click="B1_Click" IsEnabled="False"/>
+        <Button x:Name="play" Content="Вы хотите начать играть " Margin="136,286,221,82" Click="play_Click"/>
+
+    </Grid>
+</Window>
